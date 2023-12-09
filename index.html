@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FOOD PROJECT | HOME</title>
+    <!--* google fonts  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--* font awesome cdnjs   -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--* custom css  -->
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+  </head>
+  <body>
+    <!--* HEADER  -->
+    <header id="header">
+      <div class="container-md">
+        <!--* Menu  -->
+        <div class="header-nav flex-row">
+          <a class="logo">
+            <img class="logo-img" src="./images/logo.png" alt="Logo image" />
+          </a>
+          <nav id="nav-menu">
+            <ul class="nav-items flex-row">
+              <li class="nav-item">
+                <a class="nav-link current" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pizza.html">Pizzas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="burger.html">Burgers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="testimonials.html">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+            </ul>
+          </nav>
+          <!--*Buttons  -->
+          <div class="shopping flex-row">
+            <button class="menu-cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+            <button class="search-btn">
+              <i class="fa-solid fa-search"></i>
+            </button>
+            <button id="menu-btn"><i class="fa-solid fa-bars"></i></button>
+          </div>
+
+          <!--* Search  -->
+          <div id="search-form" class="flex-row">
+            <input
+              id="search"
+              class="form-input"
+              type="search"
+              placeholder="Search"
+            />
+            <i class="fas fa-search"></i>
+          </div>
+          <!--* Cart  -->
+          <div class="cart-items-container">
+            <div class="cart-item flex-row">
+              <i class="fas fa-times"></i>
+              <img src="./images/pizza-1.jpg" alt="" />
+              <div class="cart-content flex-row">
+                <h3>Cart Item 01</h3>
+                <div class="cart-price">$11.99</div>
+              </div>
+            </div>
+            <div class="cart-item flex-row">
+              <i class="fas fa-times"></i>
+              <img src="./images/pizza-2.jpg" alt="" />
+              <div class="cart-content flex-row">
+                <h3>Cart Item 02</h3>
+                <div class="cart-price">$13.99</div>
+              </div>
+            </div>
+            <div class="cart-item flex-row">
+              <i class="fas fa-times"></i>
+              <img src="./images/pizza-3.jpg" alt="" />
+              <div class="cart-content flex-row">
+                <h3>Cart Item 03</h3>
+                <div class="cart-price">$15.99</div>
+              </div>
+            </div>
+            <a class="btn btn-mn" href="#">Checkout</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--* Home  -->
+    <section id="home">
+      <div class="home-content">
+        <h1 class="primary-heading">Express home <br />delivery</h1>
+        <p class="home-text">
+          Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Laboriosam
+          Quos Repellendus Aliquam Quam Aperiam Quas?
+        </p>
+        <a class="btn btn-hm" href="#">Order Now</a>
+      </div>
+    </section>
+
+    <main>
+      <!--* Pizza  -->
+
+      <section id="pizza-menus">
+        <div class="container-md">
+          <h2 class="secondary-heading">PIZZAS</h2>
+          <div class="menu-items grid grid-col-4">
+            <div class="menu-item">
+              <div class="menu-item-img">
+                <img src="./images/pizza-1.jpg" alt="" />
+              </div>
+              <div class="menu-content">
+                <div class="items">
+                  <span class="item">Pizza</span>
+                </div>
+                <h3 class="item-heading items">
+                  <strong>5</strong> Mini Pizza
+                </h3>
+                <p class="item-price items">
+                  $<strong>99.99</strong> <small>110.99</small>
+                </p>
+              </div>
+              <div class="menu-btn flex-row">
+                <a class="btn btn-mn" href="#">Add to Cart</a>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-img">
+                <img src="./images/pizza-2.jpg" alt="" />
+              </div>
+              <div class="menu-content">
+                <div class="items">
+                  <span class="item">Pizza</span>
+                </div>
+                <h3 class="item-heading items">
+                  <strong>4</strong> Mixed Pizza
+                </h3>
+                <p class="item-price items">
+                  $<strong>119.99</strong> <small>139.99</small>
+                </p>
+              </div>
+              <div class="menu-btn flex-row">
+                <a class="btn btn-mn" href="#">Add to Cart</a>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-img">
+                <img src="./images/pizza-3.jpg" alt="" />
+              </div>
+              <div class="menu-content">
+                <div class="items">
+                  <span class="item">Pizza</span>
+                </div>
+                <h3 class="item-heading items"><strong>2</strong> Big Pizza</h3>
+                <p class="item-price items">
+                  $<strong>159.99</strong> <small>199.99</small>
+                </p>
+              </div>
+              <div class="menu-btn flex-row">
+                <a class="btn btn-mn" href="#">Add to Cart</a>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-img">
+                <img src="./images/pizza-4.jpg" alt="" />
+              </div>
+              <div class="menu-content">
+                <div class="items">
+                  <span class="item">Pizza</span>
+                </div>
+                <h3 class="item-heading items"><strong>2</strong> Max Pizza</h3>
+                <p class="item-price items">
+                  $<strong>189.99</strong> <small>209.99</small>
+                </p>
+              </div>
+              <div class="menu-btn flex-row">
+                <a class="btn btn-mn" href="#">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="all-menus">
+          <a class="all-link" href="menu.html">See All Pizzas &rarr;</a>
+        </div>
+      </section>
+
+      <!--* Burger  -->
+
+      <section id="burger-menus">
+        <div class="container-md">
+          <h2 class="secondary-heading">BURGERS</h2>
+          <div class="burger-items grid grid-col-3-bg">
+            <div class="burger-item flex-col">
+              <div class="burger-content flex-col">
+                <div class="items">
+                  <span class="item">Burger</span>
+                </div>
+                <a class="link-heading"> Royal Burger </a>
+              </div>
+              <div class="burger-images">
+                <img src="./images/burger-1.png" alt="" />
+              </div>
+              <div class="burger-content-bottom flex-row pd-2">
+                <div class="burger-content-text">
+                  <p class="item-price items">$<strong>10.00</strong></p>
+                  <span>110gr/ 300 cal</span>
+                </div>
+                <div class="flex-row">
+                  <a class="burger-btn flex-row" href="#"
+                    ><i class="fas fa-plus"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="burger-item flex-col">
+              <div class="burger-content">
+                <div class="items">
+                  <span class="item">Burger</span>
+                </div>
+                <a class="link-heading"> King Burger </a>
+              </div>
+              <div class="burger-images">
+                <img src="./images/burger-2.png" alt="" />
+              </div>
+              <div class="burger-content-bottom flex-row pd-2">
+                <div class="burger-content-text">
+                  <p class="item-price items">$<strong>10.00</strong></p>
+                  <span>110gr/ 300 cal</span>
+                </div>
+                <div class="flex-row">
+                  <a class="burger-btn flex-row" href="#"
+                    ><i class="fas fa-plus"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div id="clr-light" class="burger-item flex-col burger-item-dark">
+              <div class="burger-content">
+                <div class="items">
+                  <span class="item">Burger</span>
+                </div>
+                <a class="link-heading"> Big Burger </a>
+              </div>
+              <div class="burger-images">
+                <img class="dark-img" src="./images/burger-3.jpg" alt="" />
+              </div>
+              <div class="burger-content-bottom flex-row pd-2">
+                <div class="burger-content-text">
+                  <p class="item-price items">$<strong>10.00</strong></p>
+                  <span>110gr/ 300 cal</span>
+                </div>
+                <div class="flex-row">
+                  <a class="burger-btn burger-btn-lg flex-row" href="#"
+                    ><i class="fas fa-plus"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="all-menus">
+          <a class="all-link" href="menu.html">See All Burgers &rarr;</a>
+        </div>
+      </section>
+
+      <!--* Testimonials  -->
+
+      <section id="testimonials">
+        <div class="container-md">
+          <h2 class="secondary-heading">TESTIMONIALS</h2>
+          <div class="testimonial-items grid grid-col-3">
+            <div class="testimonial-item flex-col">
+              <div class="testimonial-item-img flex-row">
+                <img
+                  class="testimonial-img"
+                  src="./images/person-1.png"
+                  alt=""
+                />
+                <p class="test-heading">Lauro Doe</p>
+              </div>
+              <div class="testimonial-content flex-col">
+                <blockquote class="testimonial-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid distinctio non beatae voluptatibus repudiandae sequi
+                  accusantium numquam sed totam laboriosam!
+                </blockquote>
+                <div class="stars flex-row">
+                  <i class="fas fa fa-star"></i>
+                  <i class="fas fa fa-star"></i>
+                  <i class="fas fa fa-star"></i>
+                  <i class="fas fa fa-star"></i>
+                  <i class="fas fa fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-item flex-col">
+              <div class="testimonial-item-img flex-row">
+                <img
+                  class="testimonial-img"
+                  src="./images/person-2.png"
+                  alt=""
+                />
+                <p class="test-heading">Hugo Doe</p>
+              </div>
+              <div class="testimonial-content flex-col">
+                <blockquote class="testimonial-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid distinctio non beatae voluptatibus repudiandae sequi
+                  accusantium numquam sed totam laboriosam!
+                </blockquote>
+                <div class="stars flex-row">
+                  <i class="fas fa fa-star"></i>
+                  <i class="fas fa fa-star"></i>
+                  <i class="fas fa fa-star"></i>
+                  <i class="fas fa fa-star"></i>
+                  <i class="fas fa fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-item flex-col">
+              <div class="testimonial-item-img flex-row">
+                <img
+                  class="testimonial-img"
+                  src="./images/person-3.png"
+                  alt=""
+                />
+                <p class="test-heading">Jane Doe</p>
+              </div>
+              <div class="testimonial-content flex-col">
+                <blockquote class="testimonial-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid distinctio non beatae voluptatibus repudiandae sequi
+                  accusantium numquam sed totam laboriosam!
+                </blockquote>
+                <div class="stars flex-row">
+                  <i class="fas fa fa-star"></i>
+                  <i class="fas fa fa-star"></i>
+                  <i class="fas fa fa-star"></i>
+                  <i class="fas fa fa-star"></i>
+                  <i class="fas fa fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-item flex-col">
+              <div class="testimonial-item-img flex-row">
+                <img
+                  class="testimonial-img"
+                  src="./images/person-3.png"
+                  alt=""
+                />
+                <p class="test-heading">Jane Doe</p>
+              </div>
+              <div class="testimonial-content flex-col">
+                <blockquote class="testimonial-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid distinctio non beatae voluptatibus repudiandae sequi
+                  accusantium numquam sed totam laboriosam!
+                </blockquote>
+                <div class="stars flex-row">
+                  <i class="fas fa fa-star"></i>
+                  <i class="fas fa fa-star"></i>
+                  <i class="fas fa fa-star"></i>
+                  <i class="fas fa fa-star"></i>
+                  <i class="fas fa fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-item flex-col">
+              <div class="testimonial-item-img flex-row">
+                <img
+                  class="testimonial-img"
+                  src="./images/person-3.png"
+                  alt=""
+                />
+                <p class="test-heading">Jane Doe</p>
+              </div>
+              <div class="testimonial-content flex-col">
+                <blockquote class="testimonial-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid distinctio non beatae voluptatibus repudiandae sequi
+                  accusantium numquam sed totam laboriosam!
+                </blockquote>
+                <div class="stars flex-row">
+                  <i class="fas fa fa-star"></i>
+                  <i class="fas fa fa-star"></i>
+                  <i class="fas fa fa-star"></i>
+                  <i class="fas fa fa-star"></i>
+                  <i class="fas fa fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-item flex-col">
+              <div class="testimonial-item-img flex-row">
+                <img
+                  class="testimonial-img"
+                  src="./images/person-3.png"
+                  alt=""
+                />
+                <p class="test-heading">Jane Doe</p>
+              </div>
+              <div class="testimonial-content flex-col">
+                <blockquote class="testimonial-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid distinctio non beatae voluptatibus repudiandae sequi
+                  accusantium numquam sed totam laboriosam!
+                </blockquote>
+                <div class="stars flex-row">
+                  <i class="fas fa fa-star"></i>
+                  <i class="fas fa fa-star"></i>
+                  <i class="fas fa fa-star"></i>
+                  <i class="fas fa fa-star"></i>
+                  <i class="fas fa fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--* ABout  -->
+
+      <section id="about">
+        <div class="container-md">
+          <h2 class="secondary-heading">ABOUT US</h2>
+          <div class="about-content grid grid-col-2">
+            <div class="about-image">
+              <img
+                class="about-img"
+                src="./images/about.jpg"
+                alt="Food image"
+              />
+            </div>
+            <div class="about-info">
+              <h3 class="about-heading">The Secret of our foods...</h3>
+              <div class="about-info-text">
+                <p class="about-text">
+                  Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit.
+                  Quisquam Voluptatem Facere Amet Temporibus Culpa Sit Illo
+                  Earum Perferendis!
+                </p>
+                <p class="about-text">
+                  Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit.
+                  Quisquam Voluptatem Facere Culpa Sit Illo Earum Cupiditate
+                  Soluta Perferendis!
+                </p>
+                <p class="about-text">
+                  Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit.
+                  Quisquam Voluptatem Culpa Sit Illo Earum Cupiditate Soluta
+                  Perferendis!
+                </p>
+              </div>
+
+              <a class="btn btn-mn" href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--* Blog  -->
+
+      <section id="blog">
+        <div class="container-md">
+          <h2 class="secondary-heading">BLOG</h2>
+          <div class="menu-items grid grid-col-3-bg">
+            <div class="menu-item">
+              <div class="menu-item-img">
+                <img src="./images/blog-1.jpg" alt="" />
+              </div>
+              <div class="menu-content">
+                <h3 class="item-heading">How To Make Burgers?</h3>
+                <h4 class="item-heading-sub">By Admin / 10st May, 2020</h4>
+                <p class="menu-item-text">
+                  Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit.
+                  Temporibus, Laudantium!
+                </p>
+              </div>
+              <div class="menu-btn flex-row">
+                <a class="btn btn-mn" href="#">Learn More</a>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-img">
+                <img src="./images/blog-2.jpg" alt="" />
+              </div>
+              <div class="menu-content">
+                <h3 class="item-heading">How To Make Burgers?</h3>
+                <h4 class="item-heading-sub">By Admin / 10st May, 2020</h4>
+                <p class="menu-item-text">
+                  Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit.
+                  Temporibus, Laudantium!
+                </p>
+              </div>
+              <div class="menu-btn flex-row">
+                <a class="btn btn-mn" href="#">Learn More</a>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-img">
+                <img src="./images/blog-3.jpg" alt="" />
+              </div>
+              <div class="menu-content">
+                <h3 class="item-heading">How To Make Burgers?</h3>
+                <h4 class="item-heading-sub">By Admin / 10st May, 2020</h4>
+                <p class="menu-item-text">
+                  Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit.
+                  Temporibus, Laudantium!
+                </p>
+              </div>
+              <div class="menu-btn flex-row">
+                <a class="btn btn-mn" href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--* Contact  -->
+      <section id="contact">
+        <div class="container-md">
+          <h2 class="secondary-heading">Contact Us</h2>
+
+          <div class="contact-content flex-row">
+            <div class="contact-map flex-row">
+              <iframe
+                class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12037.849355292377!2d28.97479195716739!3d41.0370174768469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7650656bd63%3A0x8ca058b28c20b6c3!2zVGFrc2ltIE1leWRhbsSxLCDFnmVoaXQgTXVodGFyLCAzNDQzNSBCZXlvxJ9sdS_EsHN0YW5idWw!5e0!3m2!1str!2str!4v1701882261215!5m2!1str!2str"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div class="contact-form">
+              <form class="form flex-col">
+                <h3 class="form-heading">Get in Touch</h3>
+                <div class="input-box flex-col">
+                  <div class="box flex-row">
+                    <i class="form-icon fa-solid fa-user"></i>
+                    <input
+                      class="input-search"
+                      type="text"
+                      placeholder="Username"
+                    />
+                  </div>
+
+                  <div class="box flex-row">
+                    <i class="form-icon fa-solid fa-envelope"></i>
+                    <input
+                      class="input-search"
+                      type="email"
+                      placeholder="Email"
+                    />
+                  </div>
+
+                  <div class="box flex-row">
+                    <i class="form-icon fa-solid fa-phone"></i>
+                    <input
+                      class="input-search"
+                      type="tel"
+                      placeholder="+90 000 000 00 00"
+                    />
+                  </div>
+                </div>
+
+                <a class="btn-search" href="#">Contact Now</a>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--* Footer  -->
+
+    <footer id="footer">
+      <div class="footer-container">
+        <div class="footer-info flex-row">
+          <div class="info flex-col">
+            <a class="logo">
+              <img class="logo-img" src="./images/logo.png" alt="Logo image" />
+            </a>
+            <div class="social-info flex-row">
+              <a class="social-link" href="#"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a class="social-link" href="#"
+                ><i class="fa-brands fa-instagram-square"></i
+              ></a>
+              <a class="social-link" href="#"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a class="social-link" href="#"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="search flex-col">
+            <input class="input-search" type="search" placeholder="Search" />
+            <a class="btn-search" href="#">Search</a>
+          </div>
+        </div>
+        <p class="footer-copy">
+          Created by Gulence &copy; <span class="year">2023</span>
+        </p>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
