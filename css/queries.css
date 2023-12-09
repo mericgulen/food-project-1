@@ -69,9 +69,11 @@
     flex-direction: column;
     justify-content: center;
     gap: 1.4rem;
+    visibility: hidden;
   }
   #header .nav-items.active {
     right: 3rem;
+    visibility: visible;
   }
 
   #nav-menu .nav-link {
@@ -117,7 +119,7 @@
   }
 }
 
-@media (max-width: 567px) {
+@media (max-width: 576px) {
   html {
     font-size: 50%;
   }

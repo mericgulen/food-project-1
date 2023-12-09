@@ -102,9 +102,11 @@
   box-shadow: 0 0.8rem 1.2rem 0 rgba(0, 0, 0, 0.7);
   right: -120%;
   transition: var(--transition);
+  visibility: hidden;
 }
 .cart-items-container.active {
   right: 3rem;
+  visibility: visible;
 }
 .cart-item {
   flex-direction: row-reverse;
