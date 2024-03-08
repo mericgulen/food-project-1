@@ -1,12 +1,10 @@
-
-
 :root {
   --clr-bg: #f24548;
   --clr-bg-light: #fefbf8;
   --clr-white: #fff;
   --clr-black: #000;
   --clr-btn-orange: #e67e22;
-  --clr-btn-orange-light:#eb984e;
+  --clr-btn-orange-light: #eb984e;
   --transition: all 0.4s ease;
 
   --border: 0.1rem solid rgba(255, 255, 255, 0.4);
@@ -49,8 +47,7 @@ body {
   font-size: 1.4rem;
   background-color: var(--clr-white);
   overflow-x: hidden;
-
- }
+}
 section {
   padding: 6.4rem 5%;
 }
@@ -59,7 +56,6 @@ ul {
 }
 .container-md {
   margin: 0 auto;
-
 }
 
 .flex-row {
@@ -71,7 +67,6 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 }
 .grid {
   display: grid;
@@ -81,17 +76,15 @@ ul {
   /* grid-template-columns: repeat(auto-fit, minmax(30%,1fr)); */
 }
 .grid-col-3 {
-  grid-template-columns: repeat(auto-fill, minmax(30%,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
 }
 .grid-col-3-bg {
-  grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
 
 .grid-col-2 {
-  grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
-   
+  grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
 }
-
 
 /** Btn  */
 .btn:link,
